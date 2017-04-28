@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="background_service_is_enabled_question">Serviciul sleep încă rulează în background. Doriți să-l opriți?</string>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="background_service_is_enabled_question">Serviciul sleep încă rulează în fundal. Doriți să-l opriți?</string>
     
 	
     <string name="close_changeset">Închide setul de modificări</string>
-	<string name="zxing_barcode_scanner_not_found">Aplicația ZXing Barcode Scanner nu este instalată. Doriți să o descărcați din Market?</string>
+	<string name="zxing_barcode_scanner_not_found">Aplicația ZXing Barcode Scanner nu este instalată. Doriți să o descărcați din Magazin?</string>
 	<string name="rendering_attr_roadColors_description">Selectați o schemă de culori pentru drumuri:</string>
 	<string name="rendering_attr_roadColors_name">Schema de culori drumuri</string>
     <string name="map_widget_show_destination_arrow">Arată direcția spre destinație</string>
@@ -10,7 +10,7 @@
     <string name="non_optimal_route_calculation">Calculează rute mai puțin optime pentru distanțe foarte mari</string>
     <string name="gps_not_available">Vă rog să activați GPS-ul în setările dispozitivului</string>
     
-	<string name="map_widget_monitoring_services">Servicii de Logging</string>
+	<string name="map_widget_monitoring_services">Servicii de monitorizare</string>
 	<string name="no_route">Nu există rută</string>
 	<string name="delete_target_point">Șterge punctul intermediar</string>
 	<string name="target_point">Destinația %1$s</string>
@@ -76,9 +76,9 @@
 	<string name="layer_map_appearance">Configurare ecran</string>
 	<string name="show_lanes">Arată benzile de circulație</string>
 	<string name="avoid_unpaved">Evită drumurile nepavate</string>
-	<string name="avoid_ferries">Evită ferry</string>
+	<string name="avoid_ferries">Evită feriboturi</string>
 	<string name="avoid_in_routing_title">Evitare drumuri…</string>
-	<string name="avoid_in_routing_descr">Evită drumuri cu taxă, nepavate, ferry</string>
+	<string name="avoid_in_routing_descr">Evită drumuri cu taxă, nepavate, feribot</string>
 	<string name="map_widget_fluorescent">Rute fluorescente</string>
 	<string name="map_widget_show_ruler">Scara hărții</string>
 	
@@ -187,7 +187,7 @@
 	<string name="unknown_location">Poziția nu este încă cunoscută</string>
 	<string name="modify_transparency">Grad de transparență (0 - transparent, 255 - opac)</string>
 	<string name="confirm_interrupt_download">Doriți să întrerupeți descărcarea fișierului?</string>
-	<string name="first_time_msg">Mulțumim pentru că folosiți OsmAnd. Pentru a beneficia de toate funcționalitățile acestei aplicații aveți nevoie de un set de date regionale pe care le puteți descărca via \'Setări\' -&gt; \'Organizează fișierele cu hărți\'. După aceea veți putea să vizualizați hărți, să găsiți adrese, să localizați puncte de interes (POI), și să găsiți transport public.</string>    
+	<string name="first_time_msg">Mulțumim pentru că folosiți OsmAnd. Pentru a beneficia de toate funcționalitățile acestei aplicații aveți nevoie de un set de date regionale pe care le puteți descărca din \'Setări\' -&gt; \'Organizează fișierele cu hărți\'. După aceea veți putea să vizualizați hărți, să găsiți adrese, să localizați puncte de interes (POI), și să găsiți transport public.</string>    
 	<string name="basemap_was_selected_to_download">Harta de bază (basemap) este necesară pentru corecta funcționare a aplicației și a fost automat selectată pentru descărcare.</string>
 	<string name="select_index_file_to_download">Nu s-a găsit nimic. Dacă nu puteți localiza harta regiunii care vă interesează, o puteți crea dvs. (vedeți http://osmand.net).</string>
 	<string name="local_indexes_cat_tile">Hărți raster și online</string>
@@ -223,7 +223,7 @@
 	
 	<string name="send_files_to_osm">Trimiteți fișierele GPX la OSM?</string>
 	<string name="gpx_visibility_txt">Vizibilitate</string>
-	<string name="gpx_tags_txt">Tag-uri</string>
+	<string name="gpx_tags_txt">Etichete</string>
 	<string name="gpx_description_txt">Descriere</string>
 	<string name="validate_gpx_upload_name_pwd">Vă rog să specificați numele de utilizator și parola OSM pentru încărcarea fișierelor GPX.</string>
     	<string name="default_buttons_support">Susțineri</string>
@@ -272,7 +272,7 @@
 	<string name="altitude">Altitudine</string>
 	<string name="no_info">Fără info</string>
 	<string name="direction_style_sidewise">Sistem lateral (8 sectoare)</string>
-	<string name="direction_style_clockwise">Sistem orologiu (12 sectoare)</string>
+	<string name="direction_style_clockwise">In sensul orar (12 sectoare)</string>
 	<string name="settings_direction_style">Sistem cu direcții</string>
 	<string name="settings_direction_style_descr">Alegeți sistemul de exprimare a direcțiilor relative pe timpul deplasării</string>
 	<string name="auto_announce_on">Pornește anunțurile automate</string>
@@ -325,7 +325,7 @@
 	<string name="index_name_other">Hărți ale lumii și hărți specifice</string>
 	<string name="index_name_wiki">Wikipedia mondială</string>
 	<string name="index_name_voice">Voci înregistrate(înregistrate, funcționalitate limitată)</string>
-	<string name="index_name_tts_voice">Voci TTS</string>
+	<string name="index_name_tts_voice">Voci TTS(text in vorbire)</string>
 	<string name="amenity_type_osmwiki">Wikipedia (deconectat)</string>
 	<string name="amenity_type_user_defined">Obiective utilizator</string>
 	<string name="fav_export_confirmation">Există un fișier cu puncte favorite exportate anterior. Doriți să-l înlocuiți?</string>
@@ -535,15 +535,15 @@
 	<string name="send_location_email_pattern">Pentru a vizualiza poziția curentă deschideți linkul într-un browser de internet %1$s sau urmăriți linkul android %2$s</string>
 	<string name="send_location">Trimite poziția curentă</string>
 	<string name="context_menu_item_share_location">Distribuie poziția curentă</string>
-	<string name="add_waypoint_dialog_added">Waypoint \'\'{0}\'\' adăugat cu succes</string>
-	<string name="add_waypoint_dialog_title">Adaugă un waypoint la un traseu GPX înregistrat</string>
-	<string name="context_menu_item_add_waypoint">Adaugă waypoint GPX</string>
+	<string name="add_waypoint_dialog_added">Punct pe traseu \'\'{0}\'\' adăugat cu succes</string>
+	<string name="add_waypoint_dialog_title">Adaugă un punct pe traseul GPX înregistrat</string>
+	<string name="context_menu_item_add_waypoint">Adaugă punct pe traseu GPX</string>
 	<string name="amenity_type_administrative">Localități</string>
 	<string name="amenity_type_barrier">Bariere</string>
 	<string name="amenity_type_education">Educație</string>
 	<string name="amenity_type_emergency">Urgență</string>
 	<string name="amenity_type_entertainment">Cinema, teatru, club</string>
-	<string name="amenity_type_finance">Financiare</string>
+	<string name="amenity_type_finance">Finanțe</string>
 	<string name="amenity_type_geocache">Geocache</string>
 	<string name="amenity_type_healthcare">Sănătate</string>
 	<string name="amenity_type_historic">Obiective istorice</string>
@@ -552,7 +552,7 @@
 	<string name="amenity_type_man_made">Construcții tehnice</string>
 	<string name="amenity_type_military">Obiective militare</string>
 	<string name="amenity_type_natural">Natură</string>
-	<string name="amenity_type_office">Office</string>
+	<string name="amenity_type_office">Oficii</string>
 	<string name="amenity_type_other">Altele</string>
 	<string name="amenity_type_shop">Magazine</string>
 	<string name="amenity_type_sport">Sport</string>
@@ -588,7 +588,7 @@
 	<string name="loading_builds">Se încarcă lista de versiuni OsmAnd…</string>
 	<string name="select_build_to_install">Selectați una dintre versiunile OsmAnd pentru instalare</string>
 	<string name="contribution_activity">Versiunea specială pentru contribuitorii activi</string>
-	<string name="gps_status_app_not_found">Aplicația GPS Status nu este instalată. Căutați în Market?</string>
+	<string name="gps_status_app_not_found">Aplicația GPS Status nu este instalată. Căutați în Magazin?</string>
 	<string name="voice_is_not_available_msg">Ghidarea vocală nu este disponibilă. Vă rog mergeți la Setări, alegeți pachetul de voce preferat și descărcați-l.</string>
 	<string name="voice_is_not_available_title">Nu este selectată nicio voce pentru ghidarea vocală</string>
 	<string name="daynight_mode_day">Zi</string>
@@ -634,7 +634,7 @@
 	<string name="voice">Voce înregistrată</string>
 	<string name="no_vector_map_loaded">Hărțile vectoriale nu au fost încărcate</string>
 	<string name="map_route_by_gpx">Navigare folosind GPX</string>
-	<string name="gpx_files_not_found">Nu au fost găsite fișiere GPX în directorul tracks</string>
+	<string name="gpx_files_not_found">Nu au fost găsite fișiere GPX în directorul tracks(trasee)</string>
 	<string name="layer_gpx_layer">Trasee GPX…</string>
 	<string name="error_reading_gpx">Eroare la citirea datelor GPX</string>
 	<string name="vector_data">Hărți vectoriale offline</string>
@@ -1017,7 +1017,7 @@
     
     <string name="map_widget_distancemeasurement">Măsurarea distanței</string>
     <string name="recording_context_menu_play">Play</string>
-    <string name="srtm_paid_version_msg">Vă rugăm să aveți în vedere achiziționarea plugin-ului pentru liniile de nivel de la Market pentru susținerea dezvoltării acestuia.</string>
+    <string name="srtm_paid_version_msg">Vă rugăm să aveți în vedere achiziționarea plugin-ului pentru liniile de nivel din Magazin pentru susținerea dezvoltării acestuia.</string>
     <string name="srtm_paid_version_title">Plugin linii de nivel</string>
     <string name="av_def_action_video">Înregistrare video</string>
     <string name="av_def_action_audio">Înregistrare audio</string>
@@ -1113,7 +1113,7 @@
     <string name="context_menu_item_directions_from">Direcții de la</string>
     <string name="route_descr_map_location">Hartă: </string>
     <string name="route_to">Către:</string>
-    <string name="route_via">Via:</string>
+    <string name="route_via">Prin:</string>
     <string name="route_from">De la:</string>
 	<string name="destination_point">Destinație %1$s</string>
     <string name="context_menu_item_destination_point">Setează ca și destinație</string>
@@ -1194,7 +1194,7 @@
 	<string name="sleep_mode_stop_dialog">Opresc modul sleep al GPS-ului?</string>
 	<string name="stop_navigation_service">Oprire</string>
 	<string name="confirm_every_run">Intreabă intotdeauna</string>
-	<string name="save_global_track_interval_descr">Alege intervalul de logare pentru inregistrarea generala a track-urilor(activat prin intermediul widget-ului de inregistrare GPX)</string>
+	<string name="save_global_track_interval_descr">Alege intervalul de logare pentru inregistrarea generala a rutelor(activat prin intermediul widget-ului de inregistrare GPX)</string>
 	<string name="save_global_track_interval">Interval general de logare</string>
 	<string name="enable_sleep_mode">Activează modul sleep al GPS-ului</string>
 	<string name="save_track_to_gpx_globally">Salveaza track-ul intr-un fișier GPX</string>
@@ -1228,7 +1228,7 @@
     <string name="record_plugin_name">Inregistrează călătoriile</string>
     <string name="rendering_attr_subwayMode_name">Rute metrou</string>
  	<string name="keep_navigation_service">Păstrează</string>
-	<string name="map_preferred_locale_descr">Limba preferată pentru marcajele de pe hartă ( daca nu sunt disponibile se va comuta în limba Engleză sau pe denumirile locale)</string>
+	<string name="map_preferred_locale_descr">Limba preferată pentru marcajele de pe hartă (dacă nu sunt disponibile se va comuta în limba Engleză sau pe denumirile locale)</string>
     <string name="forward">Înainte</string>
     <string name="home">Acasă</string>
     <string name="live_monitoring_m_descr">Se trimite monitorizarea catre un serviciu web dacă înregistrarea GPX este activată.</string>
@@ -1272,7 +1272,7 @@
     <string name="loading_smth">Încărcare %1$s…</string>
     <string name="map_widget_plain_time">Ora curentă</string>
     <string name="gpx_wpt">Punct de reper</string>
-    <string name="none_selected_gpx">Niciun fișier GPX selectat. Pentru a selecta țineți apăsat pe un track disponibil.</string>
+    <string name="none_selected_gpx">Niciun fișier GPX selectat. Pentru a selecta țineți apăsat pe un traseu disponibil.</string>
     <string name="selected_gpx_info_show">\n\nȚineți apăsat pentru a vedea pe hartă</string>
     <string name="shared_string_selected">Selectat</string>
     <string name="shared_string_selected_lowercase">selectat</string>
@@ -1347,7 +1347,7 @@
     <string name="rendering_value_orange_name">Portocaliu</string>
     <string name="traffic_warning_railways">Trecere de cale ferată</string>
 	<string name="traffic_warning_pedestrian">Trecere de pietoni</string>
-	<string name="version_settings_descr">Descarcă o versiune de test</string>
+	<string name="version_settings_descr">Descarcă versiunea de testare</string>
     <string name="proxy_pref_descr">Configurare un proxy internet de comunicare</string>
     <string name="settings_privacy">Confidenţialitate</string>
     <string name="show_railway_warnings">Arată trecerile peste calea ferata</string>
@@ -1560,8 +1560,8 @@
     <string name="osm_save_offline">Salvați offline</string>
     <string name="osm_edit_modified_poi">Modificat POI OSM</string>
     <string name="osm_edit_deleted_poi">POI OSM șters</string>
-    <string name="context_menu_item_open_note">Deschideți OSM Notițe</string>
-    <string name="osm_edit_reopened_note">OSM Notițe redeschis</string>
+    <string name="context_menu_item_open_note">Deschideți Notiță</string>
+    <string name="osm_edit_reopened_note">Notiță redeschisă</string>
     <string name="item_removed">Articol șters</string>
     <string name="n_items_removed">articole șterse</string>
     <string name="shared_string_undo_all">Restaurează toate</string>
@@ -1592,7 +1592,7 @@
     <string name="shared_string_hide">Ascunde</string>
     <string name="av_video_quality_low">Calitate slabă</string>
     <string name="av_video_quality_high">Calitate mare</string>
-    <string name="av_video_quality">Calitate înregistrării video</string>
+    <string name="av_video_quality">Calitatea înregistrării video</string>
     <string name="av_video_quality_descr">Selectează calitatea înregistrării video</string>
     <string name="av_audio_format">Format audio</string>
     <string name="av_audio_format_descr">Selectează formatul audio</string>
